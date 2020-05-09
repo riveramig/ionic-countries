@@ -15,7 +15,7 @@ export class AuthguardService implements CanActivate{
         if(user){
           resolve(true)
         }else{
-          resolve(false);
+          reject(false);
         }
       })
     })
