@@ -1,0 +1,13 @@
+<ion-content *ngIf="country">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>{{country.name}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item>
+    <ion-img width="30" height="30" [src]="country.flag"></ion-img>
+  </ion-item>
+  <ion-item>
+    <ion-label>Capital: {{country.capital}}</ion-label>
+  </ion-item>
+</ion-content>

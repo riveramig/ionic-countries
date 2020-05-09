@@ -1,0 +1,16 @@
+<ion-content>
+  <h1 style="text-align: center;">Country App!</h1>
+  <div class="center-screen">
+     <ion-item>
+      <ion-label>Email: </ion-label>
+      <ion-input type="email" placeholder="test@test.com" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Password: </ion-label>
+      <ion-input [(ngModel)]="password" type="password"></ion-input>
+    </ion-item>
+    <ion-button style="padding-top: 1rem;" color="primary" (click)="doLogin()" expand="block" shape="round">
+      Login!!
+    </ion-button>
+  </div>
+</ion-content>
